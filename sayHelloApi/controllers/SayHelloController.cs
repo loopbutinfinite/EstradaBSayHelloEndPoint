@@ -17,11 +17,5 @@ namespace sayHelloApi.controllers
         {
             return $"Hello, {userName}!";
         }
-       
-        //CRUD Functions
-        //C reate --> POST
-        //R ead --> GET
-        //U pdate --> PUT
-        //D elete --> DELETE
     }
 }
