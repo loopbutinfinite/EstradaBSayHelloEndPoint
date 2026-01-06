@@ -15,7 +15,7 @@ namespace sayHelloApi.controllers
         [Route("Greeting/{userName}")]
         public string Greeting(string userName)
         {
-            return $"Hello, {userName}!";
+            return $"Hello, {userName}! Hope you are doing well today!";
         }
     }
 }
